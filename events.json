@@ -6,7 +6,7 @@
     "link": "https://www.bilesuparadize.lv/lv/event/86260",
     "available": true,
     "priceMin": "79€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
   },
   {
     "title": "Sarunas un grāmatas PAR NARCISIEM | Marija Ābeltiņa, Diāna Zande",
@@ -15,7 +15,7 @@
     "link": "https://www.bilesuparadize.lv/lv/event/152021",
     "available": false,
     "priceMin": "15€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
   },
   {
     "title": "YAMAHA mūzikas skolas jaunāko grupu audzēkņu koncerts “Ceļojums”",
@@ -24,16 +24,7 @@
     "link": "https://www.bilesuparadize.lv/lv/event/152140",
     "available": false,
     "priceMin": "7€",
-    "seats": "IEEJAS BILETI"
-  },
-  {
-    "title": "Diploma koncerteksāmens kora diriģēšanā",
-    "date": "Trešdiena , 21. maijs, 18:00",
-    "location": "Rīga, LU Lielā aula",
-    "link": "https://www.bilesuparadize.lv/lv/event/153010",
-    "available": true,
-    "priceMin": "5€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
   },
   {
     "title": "MELNAIS GULBIS",
@@ -42,7 +33,7 @@
     "link": "https://www.bilesuparadize.lv/lv/event/151106",
     "available": false,
     "priceMin": "50€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
   },
   {
     "title": "Vokālās kamermūzikas koncerts \"Kas darīts, nevar kļūt vairs nedarīts /Viljams Šekspīrs/\"",
@@ -51,7 +42,16 @@
     "link": "https://www.bilesuparadize.lv/lv/event/152645",
     "available": true,
     "priceMin": "7€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
+  },
+  {
+    "title": "Diploma koncerteksāmens kora diriģēšanā",
+    "date": "Trešdiena , 21. maijs, 18:00",
+    "location": "Rīga, LU Lielā aula",
+    "link": "https://www.bilesuparadize.lv/lv/event/153010",
+    "available": true,
+    "priceMin": "5€",
+    "seats": "ieejas biļetes"
   },
   {
     "title": "PAZUDUŠAIS DĒLS",
@@ -60,7 +60,7 @@
     "link": "https://www.bilesuparadize.lv/lv/event/149767",
     "available": false,
     "priceMin": "28€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
   },
   {
     "title": "Sibīrijas haiku",
@@ -69,7 +69,7 @@
     "link": "https://www.bilesuparadize.lv/lv/event/150208",
     "available": false,
     "priceMin": "22€",
-    "seats": "IEEJAS BILETI"
+    "seats": "ieejas biļetes"
   },
   {
     "title": "100 NAKTS PĀRPRATUMI",
