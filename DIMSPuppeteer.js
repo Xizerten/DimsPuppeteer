@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const fs = require('fs');
 const BASE_URL = 'https://www.bilesuparadize.lv/lv/search?page=';
-const MAX_PAGES = 1;
+const MAX_PAGES = 2;
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 async function processEventLite(page, url) {
     let layoutData = null;
