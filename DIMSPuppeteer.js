@@ -26,22 +26,27 @@ async function processEventLite(page, url) {
             const btn = btns.find(b => b.textContent.includes('Pirkt biļetes'));
             if (btn) btn.click();
         });
-        await delay(1000);
-        await page.evaluate(() => {
-            const btns = Array.from(document.querySelectorAll('button'));
-            const btn = btns.find(b => b.textContent.includes('Sēdvietas'));
-            if (btn) btn.click();
-        });
+        if (!layoutData && !ticketData)
+            await delay(1000);
+            await page.evaluate(() => {
+                const btns = Array.from(document.querySelectorAll('button'));
+                const btn = btns.find(b => b.textContent.includes('Sēdvietas'));
+                if (btn) btn.click();
+            });
         let tries = 0;
-        while ((!layoutData || !ticketData) && tries < 20) {
-            await delay(300);
+        while ((!layoutData || !ticketData) && tries < 50) {
+            await delay(100);
             tries++;
         }
         page.off('response', listener);
         if (layoutData && ticketData?.tickets) {
             const availableIds = new Set(ticketData.tickets);
             return layoutData.map(seat => ({
-                ...seat,
+                row_num: seat.row_num,
+                seat_num: seat.seat_num,
+                price: seat.price,
+                horizontal_position: seat.horizontal_position,
+                vertical_position: seat.vertical_position,
                 available: availableIds.has(seat.id)
             }));
         }
